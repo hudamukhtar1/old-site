@@ -35,7 +35,7 @@ body {
   }
 
   .header {
-    background-image: url('Images/galaxy.jpg');
+    background-image: url('galaxy.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -53,7 +53,7 @@ body {
  
  /* Title animation */
  .large-header {
-    background-image: url("Images/galaxy.jpg");
+    background-image: url("galaxy.jpg");
  }
  
  .main-title {
