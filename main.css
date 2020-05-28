@@ -45,7 +45,7 @@ body {
     position: relative;
     width: 100%;
     background: #111;
-    overflow: hidden;
+    overflow: auto;
     background-size: cover;
     background-position: center;
     /* z-index: 1; */
@@ -74,51 +74,45 @@ body {
     font-size: 4.2em;
     letter-spacing: 0.1em;
  }
- 
- .main-title .thin {
-    font-weight: 200;
- }
 
  .main-subtitle {
   font-family: monospace;
   position: absolute;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   color: #F9F1E9;
   text-align: center;
-  top: 45%;
-  left: 34%;
+  top: 55%;
+  left: 50%; 
   font-size: 2.2em;
   letter-spacing: 0.1em;
-}
-
-.main-subtitle .thin {
-  font-weight: 100;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
 
 .about {
 font-family: monospace;
   position: relative;
   margin: 0;
-  padding: 10px;
+  padding-bottom: 20px;
   color: #F9F1E9;
   text-align: center;
   font-size: 2em;
-  text-transform: none;
 }
 
 .detail {
   font-family: monospace;
   position: absolute;
-  margin: 0;
-  padding: 0;
+  padding-top: 3rem;
   color: #F9F1E9;
   text-align: center;
   top: 60%;
-  left: 39%;
+  left: 50%;
   font-size: 1.2em;
   letter-spacing: 0.1em;
   cursor: pointer;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
 
 .detail:hover {
@@ -134,19 +128,15 @@ font-family: monospace;
 /* Titles */
 .heading {
   font-family: monospace;
-  position: absolute;
+  position: relative;
   margin: 0;
-  padding: 0;
+  padding-bottom: 50px;
   color: #F9F1E9;
   text-align: center;
-  top: 5%;
-  left: 45%;
+  top: 0%;
+  left: 0%;
   font-size: 3.2em;
   letter-spacing: 0.1em;
-}
-
-.heading .thin {
-  font-weight: 100;
 }
 
 /* Card  */
